@@ -1,0 +1,12 @@
+<div class="grid grid-cols-[1fr_10fr_1fr]" data-controller="hello">
+  <div class="col-start-2">
+    <p class="max-w-[60ch]" data-hello-target="display"></p>
+    <button class="p-2 text-lg font-bold bg-sky-500 text-gray-50 font-inter" data-action="hello#allcolors">Convert</button>
+  </div>
+  <div class="grid col-start-2 gap-2" data-hello-target="frame">
+  </div>
+  <button class="col-start-1 p-2 text-lg font-bold bg-sky-500 text-gray-50 font-inter" data-action="hello#chartAll">Chart All</button>
+  <div class="grid col-start-2 gap-2 col-rows-2" data-hello-target="charts"></div>
+  <button class="col-start-1 p-2 text-lg font-bold bg-sky-500 text-gray-50 font-inter" data-action="hello#rampOne">Single Ramp</button>
+  <div class="grid col-start-2 gap-2 col-rows-2" data-hello-target="ramps"></div>
+</div>

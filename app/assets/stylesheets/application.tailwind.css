@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .frame {
+    @apply grid h-full grid-cols-11 border-2 border-green-300;
+  }
+
+  .chartframe {
+    @apply grid grid-cols-6 bg-gray-100 border-[3px] border-gray-300 text-gray-900 gap-2;
+  }
+
+  .chartcell {
+    @apply flex flex-col items-center gap-2 p-2 justify-evenly;
+  }
+}
+
+
